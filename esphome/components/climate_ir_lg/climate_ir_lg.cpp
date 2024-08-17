@@ -9,7 +9,7 @@ static const char *const TAG = "climate.climate_ir_lg";
 // Commands
 const uint32_t COMMAND_MASK = 0xFF000;
 const uint32_t COMMAND_OFF = 0xC0000;
-const uint32_t COMMAND_SWING = 0x10000;
+const uint32_t COMMAND_SWING = 0x10001;
 
 const uint32_t COMMAND_ON_COOL = 0x00000;
 const uint32_t COMMAND_ON_DRY = 0x01000;
